@@ -1,7 +1,7 @@
 <?php namespace BackupManager\Filesystems;
 
-use League\Flysystem\Adapter\Local;
 use League\Flysystem\Filesystem as Flysystem;
+use League\Flysystem\Local\LocalFilesystemAdapter as Local;
 
 /**
  * Class LocalFilesystem
